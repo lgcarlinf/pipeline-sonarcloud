@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { difference } from '../src/utils/diference';
+import { difference } from '../src/utils/difference';
 
     test('should return zero when both numbers are zero', () => {
         const result = difference(0, 0);
