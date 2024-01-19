@@ -7,9 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "test": "vitest run ",
-    "coverage": "vitest --coverage ",
+    "coverage": "vitest --coverage",
+    "sonar": "sonar-scanner -D sonar.token=$SONAR_TOKEN",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "sonar": "sonar-scanner",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"

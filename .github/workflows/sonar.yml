@@ -20,8 +20,7 @@ jobs:
       - name: Run command coverage
         run: npm run coverage
       - name: Run command sonar scanner
-        run: npm run sonar
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: npm run sonar
 
